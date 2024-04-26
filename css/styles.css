@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px; /* Add some space between rows */
+}
+
+.key {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.key:hover {
+    background-color: #f0f0f0;
+}
+
+/* Adjust styles for specific keys */
+.backspace {
+    width: 100px;
+}
+
+.tab {
+    width: 70px;
+}
+
+.capslock {
+    width: 90px;
+}
+
+.enter {
+    width: 90px;
+}
+
+.shift {
+    width: 80px;
+}
+
+.space {
+    width: 450px; /* Adjust spacebar width */
+}
+
+.arrow {
+    width: 50px;
+    font-size: 20px; /* Adjust arrow font size */
+}
+
+.letter {
+    width: 50px; /* Adjust letter key width */
+}
+.spaceRow {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto; 
+}
+
